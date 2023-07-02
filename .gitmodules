@@ -4,3 +4,6 @@
 [submodule "extlib/original_block_tree"]
 	path = extlib/original_block_tree
 	url = https://github.com/pasta-toolbox-forks/original_block_tree.git
+[submodule "extlib/tlx"]
+	path = extlib/tlx
+	url = https://github.com/tlx/tlx
