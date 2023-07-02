@@ -1,3 +1,6 @@
 [submodule "extlib/block_tree"]
 	path = extlib/block_tree
 	url = git@github.com:pasta-toolbox/block_tree
+[submodule "extlib/original_block_tree"]
+	path = extlib/original_block_tree
+	url = https://github.com/pasta-toolbox-forks/original_block_tree.git
