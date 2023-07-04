@@ -6,11 +6,11 @@ echo ${corpus_folder}
 
 now=$(date)
 folder_name=results_$(date +'%s')
-#cp -r template ${folder_name}
-mkdir ${folder_name}
+cp -r template ${folder_name}
 
 # Run our sequential block_tree construction algorithms
 file_name=${folder_name}/repetitive_our.txt
+rm file_name
 lscpu | tee -a ${file_name}
 
 for file in ${corpus_folder}*
@@ -35,6 +35,7 @@ done
 
 # Run Belazzougui et al.'s sequential block_tree construction algorithm
 file_name=${folder_name}/repetitive_belazzougui.txt
+rm file_name
 lscpu | tee -a ${file_name}
 
 for file in ${corpus_folder}*
@@ -58,6 +59,7 @@ exit
 
 # Run our parallel block tree construction algorithm
 file_name=${folder_name}/repetitive_our_parallel.txt
+rm file_name
 lscpu | tee -a ${file_name}
 
 for file in ${corpus_folder}*

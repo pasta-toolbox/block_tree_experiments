@@ -1,0 +1,7 @@
+RESULT algorithm_name=FP-pruning-1 plot_name=FP$_1$ sorting_order=1 plot_attr=mark=asterisk,color=fp1Color
+RESULT algorithm_name=FP-pruning-z plot_name=FP$_z$ sorting_order=2 plot_attr=mark=otimes,color=fpzColor
+RESULT algorithm_name=LPF-pruning-1 plot_name=LPF$_1$ sorting_order=7 plot_attr=mark=+,color=lpf1Color
+RESULT algorithm_name=LPF-pruning-z plot_name=LPF$_z$ sorting_order=4 plot_attr=mark=triangle,color=lpfzColor
+RESULT algorithm_name=LPF-pruning-DP-1 plot_name=LPF$^{\textnormal{DP}}_1$ sorting_order=6 plot_attr=mark=x,color=lpf1dpColor
+RESULT algorithm_name=LPF-pruning-DP-z plot_name=LPF$^{\textnormal{DP}}_z$ sorting_order=5 plot_attr=mark=pentagon,color=lpfzdpColor
+RESULT algorithm_name=belazzougui plot_name=original~BT~\cite{belazzougui21block} sorting_order=3 plot_attr=mark=star,color=belazzouguiColor,scale=.9
