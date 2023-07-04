@@ -26,7 +26,7 @@ do
             do
 		for s in 0 1
 		do
-		    ./build/benchmark ${file} -e -c -s ${s} -t ${tau} -m ${max_leaf_size} -q 0 -p 1KB | tee -a ${file_name}
+		    ./build/benchmark ${file} -e -c -s ${s} -t ${tau} -m ${max_leaf_size} -q 0 | tee -a ${file_name}
 		done
 	    done
         done
@@ -48,7 +48,7 @@ do
     	do
             for tau in 2 4 8 16
             do
-		./build/benchmark ${file} -e -c -s 1 -t ${tau} -m ${max_leaf_size} -q 0 -p 1KB | tee -a ${file_name}
+		./build/benchmark ${file} -e -c -s 1 -t ${tau} -m ${max_leaf_size} -q 0 | tee -a ${file_name}
 	    done
         done
     done
