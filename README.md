@@ -1,5 +1,7 @@
 # Benchmark Scripts for pasta::block_tree
 
+[![DOI](https://zenodo.org/badge/661411780.svg)](https://zenodo.org/badge/latestdoi/661411780)
+
 This repository contains scripts that help to reproduce the results of the paper "Faster Block Tree Construction".
 
 To clone this repository and build the benchmark please use the following commands.
